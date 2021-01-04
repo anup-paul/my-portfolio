@@ -1,10 +1,19 @@
 body
 {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 h1
 {
     font-size: 50px;
+}
+h2
+{
+    font-size: 40px;
+}
+p
+{
+    color: rgb(75, 77, 2);
 }
 .name-highlight
 {
@@ -14,9 +23,83 @@ h1
 {
     width: 40%;
     float: left;
-    margin: 5%;
+    margin: 2%;
+    padding-left: 2%;
+    height: 500px;
+    
 }
 .halfwidth img
 {
     width: 100%;
+}
+.banner
+{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    height: 600px;
+
+}
+section
+{
+    height: 500px;
+    padding-bottom: 100pxl;
+   
+    
+
+}
+.link-button
+{
+    color: rgb(238, 235, 232);
+    background-image:linear-gradient(rgb(146, 140, 82),rgb(12, 12, 66));
+    
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 4px;
+}
+.bannerTwo
+{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100px;
+}
+.experience-area
+{
+    
+    text-align: center;
+    height: 400px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-size:50px;
+    background-position: left;
+   
+
+}
+.single-experience
+{
+    height: 200px;
+    box-shadow: 10px 10px 30px grey;
+    border-radius: 10px;
+    
+}
+#full-stack
+{
+    border-right: 10px solid;
+    border-image:linear-gradient(180deg,rgb(180, 119, 5), rgb(224, 215, 129));
+    border-image-slice: 1;
+   
+}
+#baby-dev
+{
+    border-right: 10px solid;
+    border-image:linear-gradient(180deg,rgb(3, 74, 107), rgb(143, 189, 226));
+    border-image-slice: 1;
+  
+}
+
+footer
+{
+    text-align: center;
+    font-size: 10px;
+
 }
